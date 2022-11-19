@@ -1,0 +1,25 @@
+Binary Search Tree Projesi
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root: 7 olsun
+5, 7'den küçük olduğu için sola.
+1, hem 7'den hem de 5'den küçük olduğu için sola 
+8,7'den büyük olduğu için sağa.
+3, 7'den ve 5'den küçük olduğu için sola, 1'den büyük olduğu için sağa
+6,7'den küçük olduğu için sola, 5'den büyük olduğu için sağa.
+0, hepsinden küçük olduğu tamamen sola.
+9, 7'den büyük olduğu için sağa, 8'den de büyük olduğu için sağa.
+4,7'den küçük olduğu için sola. 5'den küçük olduğu için sola, 1'den ve 3'den büyük olduğu için sağa.
+2, 7'den ve 5'den küçük olduğu için sola. 1DEn büyük olduğu için sağa, 3'den küçük olduğu için sola.
+
+                         7
+                       /  \
+                     5     8
+                    / \     \
+                   1   6     9
+                  /  \
+                 0    3
+                     / \
+                    2   4
+
+ O(logn)
